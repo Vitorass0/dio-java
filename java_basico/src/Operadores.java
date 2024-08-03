@@ -1,4 +1,4 @@
-package edu.Vitor.java_basico;
+//package edu.Vitor.java_basico; estava assim, mas n tava pegando 
 public class Operadores {
     public static void main(String[] args)  {
         int a = 5, b = 6 ;
