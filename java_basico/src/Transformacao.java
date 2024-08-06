@@ -7,6 +7,9 @@ public class Transformacao {
             
             System.out.println("Número: " + numero);
             System.out.println("Texto: " + numeroEmTexto);
+            //teste de matrizes:
+            // int [][] b = {{1,2,3},{4,5}};
+            // System.out.println(b[1][1]);
         }
     
 }
