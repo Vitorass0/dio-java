@@ -3,8 +3,9 @@ public class ParametrosInvalidosException extends Exception {
         if (parametro1 > parametro2) {
             throw new ParametrosInvalidosException();
         }else{
-            for (int i = parametro1; i <= parametro2; i++) {
-                System.out.println(i);
+            int contagem = parametro2 - parametro1;
+            for (int i = 0; i < contagem; i++) {
+                System.out.println("Imprimindo o número: " + (i+1));
             }
         }
     }
